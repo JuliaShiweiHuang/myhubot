@@ -21,7 +21,6 @@ module.exports = function(robot) {
 	});
 
 
-
 	robot.respond(/what is your favorite (.*)/, function(msg) {
 	var fav;
 	fav = msg.match[1];
