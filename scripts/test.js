@@ -22,7 +22,7 @@ module.exports = function(robot) {
 
 
 
-	bot.respond(/what is your favorite (.*)/, function(msg) {
+	robot.respond(/what is your favorite (.*)/, function(msg) {
 	var fav;
 	fav = msg.match[1];
 	console.log(fav);
