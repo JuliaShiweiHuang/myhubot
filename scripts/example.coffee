@@ -23,7 +23,7 @@ module.exports = (robot) ->
    robot.hear /I like pies/i, (res) ->
      res.emote "makes a freshly baked pie"
 
-   robot.hear /Do you love me?/i, (res) ->
+   robot.hear /Do you love me/i, (res) ->
      res.emote "Go away! I only love computers."
   #
   # lulz = ['lol', 'rofl', 'lmao']
