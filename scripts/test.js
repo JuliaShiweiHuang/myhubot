@@ -1,7 +1,7 @@
 // Link for this project:
 // https://javascriptbos02.slack.com/files/leon-guyupfront/F1QP9PX98/Hubot
 // https://javascriptbos02.slack.com/files/leon-guyupfront/F1RGTGK8U/Slack_Bot
-
+// https://hubot.github.com/docs/scripting/
 
 module.exports = function(robot) {
 	// .hear command listens fora specific phrase anywhere in the Slack room
