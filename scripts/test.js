@@ -1,9 +1,10 @@
+// Link for this project:
+// https://javascriptbos02.slack.com/files/leon-guyupfront/F1QP9PX98/Hubot
+// https://javascriptbos02.slack.com/files/leon-guyupfront/F1RGTGK8U/Slack_Bot
+
+
 module.exports = function(robot) {
-
-	robot.respond(/What's your favorite food my cherry?/, function(res) {
-		return res.send("I'm a robot--I suggest you going to a bar.");
-	});
-
+	// .hear command listens fora specific phrase anywhere in the Slack room
 	robot.hear(/i did it/i, function(msg){
 		msg.send("Congratulations! Good job!");
 	});
@@ -12,6 +13,8 @@ module.exports = function(robot) {
 		return res.send("Hi Hi Hi! Bye Bye Bye!");
 	});
 
+	// .respond can only be triggered when someone specifically mentions the Hubot using @, 
+	// or sends a direct message.
 	robot.respond(/What's your favorite food?/, function(res) {
 		return res.send("I like apple");
 	});
@@ -40,6 +43,10 @@ module.exports = function(robot) {
 		}
 	});
 
+
+	robot.respond(/What's your favorite food my cherry?/, function(res) {
+		return res.send("I'm a robot--I suggest you going to a bar.");
+	});
 
 
 }
