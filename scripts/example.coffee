@@ -26,7 +26,7 @@ module.exports = (robot) ->
    robot.hear /Do you love me/i, (res) ->
      res.emote "Go away! I only love computers."
 
-   robot.hear /hi/hello/how are you?/what's up/i, (res) ->
+   robot.hear /what's up/i, (res) ->
      res.emote "Hi Hi Hi! This is ShiweiBot. How can I help you?"
 
   #
