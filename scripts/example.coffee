@@ -26,8 +26,8 @@ module.exports = (robot) ->
    robot.hear /Do you love me/i, (res) ->
      res.emote "Go away! I only love computers."
 
-  # robot.respond /hi/hello/how are you?/what's up/i, (msg) ->
-  #   msg.send "Hi Hi Hi! This is ShiweiBot. How can I help you?"
+   robot.hear /hi/hello/how are you?/what's up/i, (res) ->
+     res.send "Hi Hi Hi! This is ShiweiBot. How can I help you?"
 
   #
   # lulz = ['lol', 'rofl', 'lmao']
