@@ -70,7 +70,7 @@ module.exports = function(robot) {
 
 	});
 
-	robot.respond(/Generate a random address!/, function(res) {
+	robot.respond(/Generate a random address!/ || /address/, function(res) {
 
 		var addressHolder = "";
 		var streetNumber = [34, 215, 18, 1, 289];
