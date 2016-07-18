@@ -51,7 +51,7 @@ module.exports = function(robot) {
 	});
 
 
-	robot.respond(/what is the date today?/, function(res) {
+	robot.respond(/what is the date today?/ || /date/, function(res) {
 		var currentDate = new Date();
 		var day = currentDate.getDate();
 		var month = currentDate.getMonth();
@@ -59,7 +59,7 @@ module.exports = function(robot) {
 		return res.send("Today is: " + month + "/" + day + "/" + year);
 	});
 
-	robot.respond(/Time, time, magic bot!/, function(res) {
+	robot.respond(/Time, time, magic bot!/ || /time/, function(res) {
 		var currentTime = new Date();
 		var hours = currentTime.getHours();
 		var minutes = currentTime.getMinutes();
