@@ -59,6 +59,17 @@ module.exports = function(robot) {
 		return res.send("Today is: " + month + "/" + day + "/" + year);
 	});
 
+	robot.respond(/Time, time, magic bot!/, function(res) {
+		var currentTime = new Date();
+		var hours = currentTime.getHours();
+		var minutes = currentTime.getMinutes();
+		if (minutes < 10) {
+			minutes = "0" + minutes;
+		}
+		return res.send("It's " + hours + ":" + minutes);
+
+	});
+
 
 
 }
