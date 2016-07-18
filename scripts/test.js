@@ -51,5 +51,15 @@ module.exports = function(robot) {
 	});
 
 
+	robot.respond(/what is the date today?/, function(res) {
+		var currentDate = new Date();
+		var day = currentDate.getDate();
+		var month = currentDate.getMonth();
+		var year = currentDate.getFullYear();
+		return res.send("Today is: " + month + "/" + day + "/" + year);
+	});
+
+
+
 }
 
