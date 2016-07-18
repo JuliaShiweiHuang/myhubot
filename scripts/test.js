@@ -71,6 +71,8 @@ module.exports = function(robot) {
 	});
 
 	robot.respond(/Generate a random address!/, function(res) {
+
+		var addressHolder = "";
 		var streetNumber = [34, 215, 18, 1, 289];
 		var streetName = ["A Street", "Congress Street", "St. Stephen Street", "Willet Street", "East Main Street", "Westfield Dr"];
 		var cityName = ["Itica", "Boston", "Dorchester", "Quincy", "Wollaston", "Kingston", "San Francisco", "Los Angeles", "New York", "Cambridge"];
