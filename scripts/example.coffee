@@ -26,8 +26,8 @@ module.exports = (robot) ->
    robot.hear /Do you love me/i, (res) ->
      res.emote "Go away! I only love computers."
 
-   robot.hear /what's up/i, (res) ->
-     res.emote "Hi Hi Hi! This is ShiweiBot. How can I help you?"
+  # robot.hear /what's up/i, (res) ->
+  #   res.emote "Hi Hi Hi! This is ShiweiBot. How can I help you?"
 
   #
   # lulz = ['lol', 'rofl', 'lmao']
@@ -62,10 +62,10 @@ module.exports = (robot) ->
   #
   # annoyIntervalId = null
   #
-   robot.respond /annoy me/, (res) ->
-     if annoyIntervalId
-       res.send "AAAAAAAAAAAEEEEEEEEEEEEEEEEEEEEEEEEIIIIIIIIHHHHHHHHHH"
-       return
+  # robot.respond /annoy me/, (res) ->
+  #   if annoyIntervalId
+  #     res.send "AAAAAAAAAAAEEEEEEEEEEEEEEEEEEEEEEEEIIIIIIIIHHHHHHHHHH"
+  #     return
   #
   #   res.send "Hey, want to hear the most annoying sound in the world?"
   #   annoyIntervalId = setInterval () ->
