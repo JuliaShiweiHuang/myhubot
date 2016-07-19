@@ -3,7 +3,7 @@
 // https://javascriptbos02.slack.com/files/leon-guyupfront/F1RGTGK8U/Slack_Bot
 // https://hubot.github.com/docs/scripting/
 // https://amussey.github.io/2015/08/11/testing-hubot-scripts.html
-
+// https://hubot.github.com/docs/scripting/
 
 module.exports = function(robot) {
 	// .hear command listens fora specific phrase anywhere in the Slack room
