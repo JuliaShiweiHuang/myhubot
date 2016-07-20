@@ -14,13 +14,13 @@ available, etc!
 
 
 ### Couple functionalities
-1. You can test the Hubot by asking:
+You can test the Hubot by asking:
 
     what is the date today?
 
 You'll see the output in the mm/dd/year format.
 
-2. You can test the Hubot by asking:
+You can test the Hubot by asking:
 
     Time, time, magic bot!
 
