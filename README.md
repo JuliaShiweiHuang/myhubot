@@ -12,6 +12,12 @@ available, etc!
 [hubot]: http://hubot.github.com
 [generator-hubot]: https://github.com/github/generator-hubot
 
+
+### Couple functionalities
+You can test the Hubot by asking:
+    what is the date today?
+You'll see the output in the mm/dd/year format.
+
 ### Running echohuang Locally
 
 You can test your hubot by running the following, however some plugins will not
