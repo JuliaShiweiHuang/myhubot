@@ -27,6 +27,18 @@ You can test the Hubot by asking:
 You'll see the output in the server's real time zone.
 
 
+Hubot can also generate a random address by using the following command:
+
+    Generate a random address!
+
+Later, Hubot will generate a random address for you.
+
+In addition, Hubot can also understand more complex command by using RegEx. You can ask Hubot
+
+    what is your favorite ***
+
+For example, food, band, programming language. And Hubot will give you an answer given its best knowledge.
+
 
 ### Running echohuang Locally
 
