@@ -15,7 +15,9 @@ available, etc!
 
 ### Couple functionalities
 You can test the Hubot by asking:
+
     what is the date today?
+    
 You'll see the output in the mm/dd/year format.
 
 ### Running echohuang Locally
