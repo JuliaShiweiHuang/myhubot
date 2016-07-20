@@ -14,11 +14,19 @@ available, etc!
 
 
 ### Couple functionalities
-You can test the Hubot by asking:
+1. You can test the Hubot by asking:
 
     what is the date today?
-    
+
 You'll see the output in the mm/dd/year format.
+
+2. You can test the Hubot by asking:
+
+    Time, time, magic bot!
+
+You'll see the output in the server's real time zone.
+
+
 
 ### Running echohuang Locally
 
