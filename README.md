@@ -13,7 +13,7 @@ available, etc!
 [generator-hubot]: https://github.com/github/generator-hubot
 
 
-### Couple functionalities
+### Couple Functionalities
 You can test the Hubot by asking:
 
     what is the date today?
@@ -37,7 +37,17 @@ In addition, Hubot can also understand more complex command by using RegEx. You 
 
     what is your favorite ***
 
-For example, food, band, programming language. And Hubot will give you an answer given its best knowledge.
+For example: food, band, programming language. And Hubot will give you an answer given its best knowledge. Please note that this command is using .reply method and it will allow Hubot to repond message directl to a user with an @ reply.
+
+There are somemore cute messages that you could test. For example:
+
+    Do you have a girlfriend?
+
+Or
+
+    Hello bot!
+
+That's about it. More functionalities are still under the development process.
 
 
 ### Running echohuang Locally
